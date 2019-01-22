@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         text: '小仓库',
-        link: '/snippets/常用正则'
+        link: '/snippets/'
       },
       {
         text: 'GitHub',
@@ -59,14 +59,15 @@ module.exports = {
         collapsable: false,
         children: [
           '框架',
+          '常用正则',
+          '工具函数',
         ]
       }],
       '/snippets/': [{
         title: '小仓库',
         collapsable: false,
         children: [
-          '常用正则',
-          '工具函数',
+          '',
         ]
       }],
     }
