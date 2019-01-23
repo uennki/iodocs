@@ -75,7 +75,7 @@ Object.prototype.toString.call(a)
 - `==` 运算符
 - if 语句
 - 逻辑运算
-  
+
 ```js
 console.log('hello' + 10); // 打印 'hello10'
 console.log(5 == '5' ? true : false); // 打印 true
@@ -97,7 +97,6 @@ console.log('' || 456); // 打印 456
 
 - `==`  仅判断值是否相等
 - `===` 判断值和类型是否相等
-
 
 通常情况下，我们一致建议使用 `===` 操作符来进行相等判断。
 
@@ -192,11 +191,9 @@ student.toString()  // 要去 student.__proto__.__proto__ 中查找
 
 其实原理也很简单，根据开头我们说的，自己没有的就去 `__proto__` 中找（不要忘记 `__proto__` 的值就是一个普通对象，它也有自己的 `__proto__` ）。所以这个查找过程会一直持续下去，直到找到该属性（或者方法）。
 
-
 :::tip
 通过 `for in` 可以循环遍历对象的属性（但有个问题，它无法识别属性到底来自对象自身，还是来自原型）。 所以我们可以借助 `obj.hasOwnProperty(xx)` 来进行识别。
 :::
-
 
 ### new
 
@@ -598,10 +595,21 @@ module.exports = { a: a }
 exports.a = a
 ```
 
+可能大家会有疑惑，`exports` 和 `module.exports` 到底是什么关系。
+
+其实 `exports` 默认指向 `module.exports`。相当于在每个模块头部，有一行这样的命令。
+
+```js
+let exports = module.exports;
+```
+
+于是我们可以直接在 exports 对象上添加方法，表示对外输出的接口，如同在module.exports上添加一样。注意，不能直接将exports变量指向一个值，因为这样等于切断了exports与module.exports的联系。
+
+导出模块之后，我们可以使用 `require` 导入需要的模块。
+
 ```js
 // file b.js
 const module = require('./a.js')
-
 console.log(module.a) // 100
 ```
 
@@ -798,7 +806,7 @@ const throttle = (fn, delay) => {
       if (timer) clearTimeout(timer)
       fn.call(this.args)
       last = now
-    } 
+    }
     else {
       timer = setTimeout(() => {
         fn.call(this, args)
