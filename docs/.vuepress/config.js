@@ -20,7 +20,7 @@ module.exports = {
         link: '/library/js'
       },
       {
-        text: '网络通识',
+        text: '计算机通识',
         link: '/network/网络'
       },
       {
@@ -47,7 +47,7 @@ module.exports = {
         ]
       }],
       '/network/': [{
-        title: '计算机基础',
+        title: '计算机通识',
         collapsable: false,
         children: [
           '网络',
