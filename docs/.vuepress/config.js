@@ -43,6 +43,7 @@ module.exports = {
         children: [
           'js',
           '浏览器',
+          '性能',
           '安全',
         ]
       }],
