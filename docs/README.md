@@ -10,7 +10,7 @@ features:
   details: 基础决定了能走多远，新技术和框架是学不完的，但是底层的原理却有道理可寻，这也是弄这个博客的原因之一。
 - title: 一个小词典
   details: 实话说，每次遇到问题都去找度娘，确实比较郁闷，所以这里也将作为问题记录的根据地（备忘录）。
-- title: 个人小仓库
-  details: 将作为个人项目的部分代码仓库，以及相关项目展示。
+- title: 小仓库
+  details: 一个小小的个人随笔仓库，以及相关项目展示。
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
