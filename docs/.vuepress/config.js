@@ -53,6 +53,8 @@ module.exports = {
         collapsable: false,
         children: [
           '网络',
+          '构建',
+          // '设计模式',
           'Git',
         ]
       }],
