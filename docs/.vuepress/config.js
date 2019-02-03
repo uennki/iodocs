@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         text: '小词典',
-        link: '/issues/框架'
+        link: '/issues/JS'
       },
       {
         text: '小仓库',
