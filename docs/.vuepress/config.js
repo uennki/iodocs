@@ -62,6 +62,7 @@ module.exports = {
         title: '小词典',
         collapsable: false,
         children: [
+          'JS',
           '框架',
           '常用正则',
           '工具函数',
