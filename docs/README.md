@@ -7,10 +7,10 @@ actionText: 一起成长 →
 actionLink: /library/js.md
 features:
 - title: 巩固基础
-  details: 基础决定了能走多远，新技术和框架是学不完的，但是底层的原理却有道理可寻，这也是弄这个博客的原因之一。
-- title: 一个小词典
-  details: 实话说，每次遇到问题都去找度娘，确实比较郁闷，所以这里也将作为问题记录的根据地（备忘录）。
-- title: 小仓库
-  details: 一个小小的个人随笔仓库，以及相关项目展示。
+  details: 新技术和框架学不完，只能补补基础，这也是弄这个博客的原因之一。
+- title: 一本小词典
+  details: 记录日常开发过程中遇到问题，以及相关解决方案。
+- title: 一个小仓库
+  details: 记录开发中常用的功能代码片段。
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
