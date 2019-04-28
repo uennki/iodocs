@@ -24,12 +24,12 @@ module.exports = {
       link: '/network/网络'
     },
     {
-      text: 'React',
-      link: '/react/react'
-    },
-    {
       text: '小词典',
       link: '/issues/JS'
+    },
+    {
+      text: 'React',
+      link: '/react/react'
     },
     {
       text: 'GitHub',
