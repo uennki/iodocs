@@ -188,17 +188,48 @@ class App extends Component {
   }
 }
 
-// 声明默认属性
-App.defaultProps = {
-  name: 'Mary'
-};
-
 // ========================================
 
 ReactDOM.render(
   <App name='tom' />,
   document.getElementById('root')
 );
+```
+
+声明 Props 默认值
+
+```jsx
+// 方式1：
+class App extends Component {
+  static defaultProps = {
+    name: 'hello'
+  }
+
+  render() {
+    return (
+      <div>
+        hello, {this.props.name}
+      </div>
+    )
+  }
+}
+```
+
+```jsx
+// 方式2：
+class App extends Component {
+  render() {
+    return (
+      <div>
+        hello, {this.props.name}
+      </div>
+    )
+  }
+}
+
+App.defaultProps = {
+  name: 'hello'
+}
 ```
 
 ## 事件处理
