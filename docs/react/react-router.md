@@ -7,9 +7,9 @@
 - 路由组件
   - BrowserRouter
   - HashRouter
-  - withRouter
   - MemoryRouter
   - StaticRouter
+  - withRouter
 - 路由匹配组件
   - Route
   - Switch

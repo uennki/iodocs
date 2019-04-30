@@ -37,6 +37,14 @@ const element3 = (
 const element = <h1>hello, world</h1>
 ```
 
+## 生命周期
+
+以下是react 16后版本的生命周期图示:
+
+![react-life](/react-life.png)
+
+生命周期主要介绍组件从渲染--挂载-数据更新--卸载销毁等不同阶段的特点，以及在某一些阶段，我们可以做的一些事情。
+
 ## Class 与 Style 绑定
 
 ```jsx
@@ -58,7 +66,7 @@ class App extends Component {
     return (
       // 三目运算
       <div style={style}>
-        hello 
+        hello
       </div>
     )
   }
