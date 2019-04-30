@@ -65,6 +65,7 @@ module.exports = {
         collapsable: false,
         children: [
           'react',
+          'react-router'
         ]
       }],
       
