@@ -1,5 +1,5 @@
 module.exports = {
-  title: '阿丢のBlog',
+  title: '渊',
   description: 'Document library',
   head: [
     ['link', {
@@ -23,10 +23,6 @@ module.exports = {
       text: '计算机通识',
       link: '/network/网络'
     },
-    // {
-    //   text: '小词典',
-    //   link: '/issues/JS'
-    // },
     {
       text: 'React',
       link: '/react/react'
@@ -68,16 +64,6 @@ module.exports = {
           'react-router'
         ]
       }],
-      
-      // '/issues/': [{
-      //   title: '小词典',
-      //   collapsable: false,
-      //   children: [
-      //     'JS',
-      //     '常用正则',
-      //     '工具函数',
-      //   ]
-      // }],
     }
   }
 }
