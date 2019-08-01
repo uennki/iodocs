@@ -1,5 +1,5 @@
 module.exports = {
-  title: '渊',
+  title: 'Code Monkey',
   description: 'Document library',
   head: [
     ['link', {
@@ -20,7 +20,7 @@ module.exports = {
       link: '/library/js'
     },
     {
-      text: '计算机通识',
+      text: '网络基础',
       link: '/network/网络'
     },
     {
