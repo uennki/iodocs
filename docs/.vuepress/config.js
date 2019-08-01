@@ -20,12 +20,12 @@ module.exports = {
       link: '/library/js'
     },
     {
-      text: '网络基础',
+      text: '计算机通识',
       link: '/network/网络'
     },
     {
       text: 'React',
-      link: '/react/react'
+      link: '/react/介绍'
     },
     {
       text: 'GitHub',
@@ -34,7 +34,7 @@ module.exports = {
     ],
     sidebar: {
       '/library/': [{
-        title: '前端',
+        title: '基础',
         collapsable: false,
         children: [
           'js',
@@ -46,22 +46,32 @@ module.exports = {
       }],
 
       '/network/': [{
-        title: '计算机通识',
+        title: '基础',
         collapsable: false,
         children: [
           '网络',
           '构建工具',
-          '设计模式',
           'Git',
+        ]
+      },{
+        title: '进阶',
+        collapsable: false,
+        children: [
+          '设计模式',
         ]
       }],
 
       '/react/': [{
-        title: 'React',
+        title: '基础',
         collapsable: false,
         children: [
-          'react',
-          'react-router'
+          '介绍',
+        ]
+      },{
+        title: '进阶',
+        collapsable: false,
+        children: [
+          '路由'
         ]
       }],
     }

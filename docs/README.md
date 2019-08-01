@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.svg
 heroText: 不明觉厉
-tagline: 论一个 Code Monkey 的自我修养
+tagline: 论一个 Monkey 的自我修养
 actionText: 一起成长 →
 actionLink: /library/js.md
 features:
