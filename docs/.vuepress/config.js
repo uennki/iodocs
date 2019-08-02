@@ -58,6 +58,7 @@ module.exports = {
         collapsable: false,
         children: [
           '设计模式',
+          '重构',
         ]
       }],
 
