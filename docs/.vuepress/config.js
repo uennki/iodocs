@@ -25,11 +25,11 @@ module.exports = {
     },
     {
       text: 'TypeScript',
-      link: '/TypeScript/01-数据类型'
+      link: '/typescript/01-数据类型'
     },
     {
-      text: 'React',
-      link: '/React/01-起步'
+      text: 'react',
+      link: '/react/01-起步'
     },
     {
       text: 'GitHub',
@@ -65,8 +65,9 @@ module.exports = {
           '重构',
         ]
       }],
-
-      '/React/': [{
+      
+      // React 板块
+      '/react/': [{
         title: '基础',
         collapsable: false,
         children: [
@@ -91,7 +92,8 @@ module.exports = {
         ]
       }],
 
-      '/TypeScript/': [{
+      // typescript 板块
+      '/typescript/': [{
         title: '基础',
         collapsable: false,
         children: [
