@@ -21,11 +21,15 @@ module.exports = {
     },
     {
       text: '计算机通识',
-      link: '/network/网络'
+      link: '/network/网络',
+    },
+    {
+      text: 'TypeScript',
+      link: '/TypeScript/01-数据类型'
     },
     {
       text: 'React',
-      link: '/react/介绍'
+      link: '/React/01-JSX'
     },
     {
       text: 'GitHub',
@@ -62,17 +66,43 @@ module.exports = {
         ]
       }],
 
-      '/react/': [{
+      '/React/': [{
         title: '基础',
         collapsable: false,
         children: [
-          '介绍',
-        ]
-      },{
-        title: '进阶',
+          '01-JSX',
+          '02-生命周期',
+          '03-Class与Style绑定',
+          '04-组件',
+          '05-State与Props',
+          '06-事件处理',
+          '07-条件渲染',
+          '08-列表渲染',
+          '09-表单输入绑定',
+          '10-高级'
+        ]},{
+        title: '路由',
         collapsable: false,
         children: [
-          '路由'
+          '11-路由基础',
+          '12-路由动态匹配',
+          '13-路由传参'
+        ]}],
+
+      '/TypeScript/': [{
+        title: '基础',
+        collapsable: false,
+        children: [
+          '01-数据类型',
+          '02-接口',
+          '03-函数',
+          '04-类',
+          '05-元组',
+          '06-枚举',
+          '07-泛型',
+          '08-声明合并',
+          '09-声明文件',
+          '10-内置对象'
         ]
       }],
     }
