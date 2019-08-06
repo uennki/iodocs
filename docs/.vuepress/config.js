@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       text: 'TypeScript',
-      link: '/typescript/01-数据类型'
+      link: '/ts/01-数据类型'
     },
     {
       text: 'React',
@@ -93,7 +93,7 @@ module.exports = {
       }],
 
       // typescript 板块
-      '/typescript/': [{
+      '/ts/': [{
         title: '基础',
         collapsable: false,
         children: [
