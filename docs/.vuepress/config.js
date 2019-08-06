@@ -28,7 +28,7 @@ module.exports = {
       link: '/typescript/01-数据类型'
     },
     {
-      text: 'react',
+      text: 'React',
       link: '/react/01-起步'
     },
     {
