@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       text: 'React',
-      link: '/React/01-JSX'
+      link: '/React/01-起步'
     },
     {
       text: 'GitHub',
@@ -70,7 +70,7 @@ module.exports = {
         title: '基础',
         collapsable: false,
         children: [
-          '01-JSX',
+          '01-起步',
           '02-生命周期',
           '03-Class与Style绑定',
           '04-组件',
