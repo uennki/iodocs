@@ -1,6 +1,9 @@
 module.exports = {
   title: 'Code Monkey',
   description: 'Document library',
+  plugins: [
+    "vuepress-plugin-cat",
+  ],
   head: [
     ['link', {
       rel: 'icon',
