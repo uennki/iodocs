@@ -20,47 +20,48 @@ module.exports = {
 
     nav: [{
       text: '前端',
-      link: '/library/js'
+      link: '/前端基础/JavaScript'
     },
     {
-      text: '计算机通识',
-      link: '/network/网络',
+      text: '计算机基础',
+      link: '/网络基础/Http',
     },
     {
       text: 'TypeScript',
-      link: '/ts/01-数据类型'
+      link: '/TypeScript/01-数据类型'
     },
     {
       text: 'React',
-      link: '/react/01-起步'
+      link: '/React/01-基础'
     },
     {
       text: 'GitHub',
       link: 'https://github.com/zhangxuanmai'
     },
     ],
+
     sidebar: {
-      '/library/': [{
+      '/前端基础/': [{
         title: '基础',
         collapsable: false,
         children: [
-          'js',
+          'JavaScript',
           '浏览器',
           '性能',
           '安全',
-          '框架通识',
+          '框架',
+          '自动化',
         ]
       }],
 
-      '/network/': [{
+      '/网络基础/': [{
         title: '基础',
         collapsable: false,
         children: [
-          '网络',
-          '构建工具',
+          'Http',
           'Git',
         ]
-      },{
+      }, {
         title: '进阶',
         collapsable: false,
         children: [
@@ -68,35 +69,18 @@ module.exports = {
           '重构',
         ]
       }],
-      
-      // React 板块
-      '/react/': [{
+
+      '/React/': [{
         title: '基础',
         collapsable: false,
         children: [
-          '01-起步',
-          '02-生命周期',
-          '03-Class与Style绑定',
-          '04-组件',
-          '05-State与Props',
-          '06-事件处理',
-          '07-条件渲染',
-          '08-列表渲染',
-          '09-表单输入绑定',
-          '10-高级',
-        ]
-      },{
-        title: '路由',
-        collapsable: false,
-        children: [
-          '11-路由基础',
-          '12-路由动态匹配',
-          '13-路由传参',
+          '01-基础',
+          '02-进阶',
+          '03-路由',
         ]
       }],
 
-      // typescript 板块
-      '/ts/': [{
+      '/TypeScript/': [{
         title: '基础',
         collapsable: false,
         children: [

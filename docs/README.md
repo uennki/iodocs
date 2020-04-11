@@ -2,8 +2,8 @@
 home: true
 heroImage: /logo.svg
 heroText: 不明觉厉
-tagline: 论一个 Monkey 的自我修养
-actionText: 一起成长 →
+tagline: 记录一些有的没的
+actionText: start to learn
 actionLink: /library/js.md
 features:
 # - title: 学习
