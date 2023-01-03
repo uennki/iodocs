@@ -4,7 +4,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.9.7"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
